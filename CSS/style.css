@@ -1,0 +1,215 @@
+
+/* font-family: "Lato", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 h2 h3 h4 h5 p ul{
+    font-family: "Lato", sans-serif;
+    margin:0;
+    padding: 0;
+    color: #2d3950;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+
+background-color: #f9f9f9;
+
+padding: 25px 0;
+}
+.header-wrapper{
+
+width: 90%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+
+display: flex;
+
+justify-content: end;
+
+align-items: center;
+}
+nav ul{
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+
+color: #2d3950;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+margin-left: 30px;
+
+transition: .2s all ease-in-out;
+
+font-family: "Lato", sans-serif;
+}
+nav ul li a:hover{
+    color:#15a4fa;
+}
+
+
+.banner{
+ background-image: url(../Images/Banner.png);
+ min-height: 100vh;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.banner_content{
+
+width: 46%;
+
+text-align: center;
+}
+.banner_content h2{
+
+color: #ffff;
+
+font-size: 120px;
+
+font-family: "Lato", sans-serif;
+
+}
+.banner_content span{
+
+display: block;
+
+height: 2px;
+
+background-color: #15a4fa;
+}
+.banner_content p{
+
+font-family: "Lato", sans-serif;
+
+font-size: 20px;
+
+color: #ffff;
+
+margin: 41px 0  50px 0;
+}
+.banner_content button{
+
+font-size: 24px;
+
+background: transparent;
+
+border: none;
+
+border: 1px solid #15a4fa;
+
+padding: 10px 30px;
+
+border-radius: 5px;
+
+color: #ffff;
+
+transition: .4s all ease-in-out;
+
+cursor: pointer;
+}
+.banner_content button:hover{
+    color:#ffff;
+    background-color: #15a4fa;
+}
+
+.pure_design{
+
+background-color: #f9f9f9;
+
+padding: 80px 0 120px;
+
+text-align: center;
+}
+.pure_design_wrapper{
+
+width: 77%;
+
+margin: auto;
+
+line-height: 35px;
+}
+.pure_design_wrapper h2{
+    
+font-size: 52px;
+    
+color: #2d3950;
+    
+font-weight: 100;
+}
+.pure_design_wrapper p{
+    
+font-size: 23px;
+    
+margin-top: 31px;
+    
+color: #2d3950;
+}
+
+
+.icon{
+
+padding: 100px 0;
+}
+.icon-wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.icon-item{
+
+width: 33%;
+
+text-align: center;
+}
+.icon-item h2{
+
+margin: 20px 0;
+
+font-weight: 500;
+
+color: #2d3950;
+
+font-size: 29px;
+}
+.icon-item p{
+
+font-size: 23px;
+
+color: #2d3950;
+}
+.icon-backgorund{
+}
+.icon-backgorund i{color: #FFFF;background-color: #15a4fa;font-size: 45px;padding: 30px 30px;}
